@@ -17,6 +17,10 @@ def get_weather():
         city="Ho Chi Minh City"
         
     weather_data=get_current_weather(city)
+     #City not found by API
+    if not weather_data['cod'] == 200:
+        return "City not found"
+    
     return render_template(
         'weather.html',
         title=weather_data["name"],
@@ -26,5 +30,5 @@ def get_weather():
     )
 
 if __name__=='__main__':
-    serve(app,host='0.0.0.0', port=8000)
+    serve(app,host='0.0.0.0', port=8001)
     
