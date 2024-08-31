@@ -12,7 +12,7 @@ def index():
 def get_weather():
     city=request.args.get('city')
     
-     #Check for empty strings or string with oonly spaces
+     #Check for empty strings or string with only spaces
     if not bool(city.strip()):
         city="Ho Chi Minh City"
         
