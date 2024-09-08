@@ -19,7 +19,6 @@ if __name__ == '__main__':
         city="Ho Chi Minh City"
      
     weather_data=get_current_weather(city)
-    
     print('\n')
     pprint(weather_data)
     
