@@ -13,5 +13,5 @@ I'm using Python 3.12.5 when I code and deploy this web,so this good to try it f
 
 ## Reporting a Vulnerability
 
--How to report a vulnerability.You can contact me with my gmail: nhoklanh998@gmail.com 
+You can contact me with my gmail: nhoklanh998@gmail.com 
 
