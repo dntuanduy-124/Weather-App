@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-I'm using Python 3.12.5 when I code and deploy this web,so this good to try it first
+I'm using Python 3.12.5 when I code and deploy this web,so this good to try it first!
 
 | Version | Supported          |
 | ------- | ------------------ |
