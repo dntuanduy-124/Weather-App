@@ -12,7 +12,6 @@ def index():
 def get_weather():
     city=request.args.get('city')
     
-     
     if not bool(city.strip()):
         city="Ho Chi Minh City"
         
