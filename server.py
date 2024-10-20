@@ -27,6 +27,7 @@ def get_weather():
         feels_like=f"{weather_data['main']['feels_like']:.1f}",
     )
 
+
 if __name__=='__main__':
     serve(app,host='0.0.0.0', port=8001)
     
